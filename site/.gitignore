@@ -46,7 +46,7 @@ benchmarks/graphs
 benchmarks/*.png
 
 # sqlite db
-*.db
+#*.db
 *.db-journal
 
 

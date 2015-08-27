@@ -50,7 +50,7 @@ var apiV1 = (function () {
 		} else if (stats.isDirectory()) {
 			//path exists, is a directory
 			filename = filename + '/index.html';
-			pathname = pathname  + '\\index.html';
+			pathname = pathname  + 'index.html';
 		} else {
 			// Symbolic link, other?
 			response.writeHead(500, {'Content-Type': 'text/plain'});
